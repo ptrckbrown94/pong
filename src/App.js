@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import Paddle from "./components/Paddle"
-import './App.css';
+import Paddle from "./components/Paddle/Paddle"
+import Container from "./components/container" 
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Paddle />
-      <Paddle />
+      <Paddle isPlayerTwo/>
     </div>
   );
 }

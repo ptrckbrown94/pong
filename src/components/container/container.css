@@ -1,0 +1,8 @@
+.container {
+    width: 700px;
+    height: 500px;
+    background-color: #66339922; 
+    border: 2px, solid rebeccapurple;
+    border-radius: 4px; 
+    margin: 20px auto;
+  }
