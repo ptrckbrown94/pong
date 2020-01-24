@@ -1,6 +1,9 @@
 import React from 'react';
-import Paddle from "./components/Paddle/Paddle"
-import Container from "./components/container" 
+import Paddle from "./components/Paddle/Paddle";
+import Ball from "./components/Ball/Ball"
+import Container from "./components/container"; 
+
+
 
 
 function App() {
@@ -8,6 +11,7 @@ function App() {
     <div className="container">
       <Paddle />
       <Paddle isPlayerTwo/>
+      <Ball />
     </div>
   );
 }
