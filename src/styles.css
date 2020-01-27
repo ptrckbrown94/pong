@@ -1,4 +1,10 @@
-.App { 
-font-family: sans-serif;
-text-align: center;
-}
+.container {
+    height: 300px;
+    width: 400px;
+    background-color: #66339922;
+    border: 2px solid rebeccapurple;
+    border-radius: 4px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
